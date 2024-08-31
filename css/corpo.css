@@ -15,7 +15,6 @@
     font-size: 4.5rem;
     max-width: 10ch;
     line-height: 1.;
-    text-align: left;
     color: #000;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -40,5 +39,12 @@
 @media (max-width: 800px) {
     .corpo {
         padding: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    div .subtitulo {
+        font-size: 2rem;
+        text-align: center;
     }
 }
