@@ -1,0 +1,52 @@
+.cursos {
+    background: #6c6969;
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+   text-align: center;
+}
+
+.lista-cursos {
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-evenly;
+    gap: 20px;
+}
+
+.cursos-h3 {
+    font-size: 6rem;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+span {
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+}
+
+.lista-cursos li {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+@media (max-width: 1000px) {
+    .cursos-h3 {
+        font-size: 3rem;
+    }
+
+    .cursos {
+        padding: 20px 10px;
+    }
+
+    .lista-cursos {
+        display: flex;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    .cursos-h3 {
+        font-size: 2.5rem;
+    }
+}

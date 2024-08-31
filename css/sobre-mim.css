@@ -1,0 +1,76 @@
+.sobre-mim {
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 100px;
+    background: #000;
+    position: relative;
+}
+
+.sobre-mim h1 {
+    font-size: 3rem;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 2px 2px 4px rgba(255, 2, 2, 0.5);
+}
+
+.sobre-mim p {
+    color: #fff;
+    font-size: 1.2rem;
+    max-width: 40ch;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.sobre-mim::before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 40px;
+    background: #ff0202;
+    position: absolute;
+    top: -20px;
+    left: 40px;
+}
+
+@media (max-width: 1000px) {
+
+    .sobre-mim {
+        grid-template-columns: 1fr;
+        padding: 20px;
+        gap: 50px;
+    }
+
+    .sobre-mim img {
+        display: none;
+    }
+
+    .sobre-mim h1 {
+        font-size: 2.5;
+        padding: 5px 15px;
+    }
+
+    .sobre-mim::before {
+        width: 60px;
+        height: 5px;
+        top: 0px;
+        left: 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .sobre-mim {
+        padding: 10px;
+        gap: 40px;
+    }
+
+    .sobre-mim p {
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,25 @@
+.rodape {
+max-width: 1200px;
+background: #fff;
+margin: 0 auto;
+padding: 40px 20px;
+}
+
+.rodape-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.rodape-container span {
+    text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .rodape {
+     padding: 20px 10px;
+    }
+
+    .rodape-container {
+        padding: 10px;
+    }
+}
