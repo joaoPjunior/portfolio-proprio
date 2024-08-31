@@ -16,7 +16,6 @@
     max-width: 10ch;
     line-height: 1.;
     color: #000;
-    text-align: right;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
@@ -31,9 +30,15 @@
         display: none;
     }
 
+    div {
+        display: grid;
+        justify-content: center;
+    }
+
     .subtitulo {
         font-size: 2.5rem;
         text-align: right;
+        justify-content: center;
     }
 }
 
@@ -41,11 +46,16 @@
     .corpo {
         padding: 15px;
     }
+
+    div {
+        display: grid;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 400px) {
-    div .subtitulo {
-        font-size: 2rem;
-        text-align: right;
+    div {
+        display: grid;
+        justify-content: center;
     }
 }
