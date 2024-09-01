@@ -28,6 +28,25 @@
     padding: 10px;
 }
 
+.inicio-caixa {
+    display: flex;
+    justify-content: center;
+}
+
+
+.inicio-caixa a {
+    background: #f1efef;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.inicio-caixa a:hover {
+    background: #a3a3a3;
+}
+
 .sobre-mim::before {
     content: "";
     display: block;
