@@ -1,4 +1,5 @@
 .experiencia{
+    border: 1px solid #000;
     max-width: 1200px;
     padding: 120px 20px;
     margin: 0 auto;
@@ -38,7 +39,7 @@
 
 .lista-inicio a {
     display: block;
-    background: #a3a3a3;
+    background: #fff;
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
@@ -47,7 +48,7 @@
 }
 
 .lista-inicio a:hover {
-    background: #f1efef;
+    background: #a3a3a3;
 }
 
 h3 {
@@ -60,6 +61,10 @@ p {
 
 .lista-experiencia li span {
     font-size: 1.2rem;
+}
+
+div {
+    border: 1px solid #0000;
 }
 
 @media (max-width: 1000px) {

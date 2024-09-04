@@ -6,7 +6,7 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 100px;
-    background: #000;
+    background: #f1efef;
     position: relative;
 }
 
@@ -14,16 +14,17 @@
     font-size: 3rem;
     padding: 10px 20px;
     margin-bottom: 20px;
-    color: #fff;
-    text-align: left;
-    text-shadow: 2px 2px 4px rgba(255, 2, 2, 0.5);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .sobre-mim p {
-    color: #fff;
+    color: #000;
     font-size: 1.2rem;
     max-width: 40ch;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     border-radius: 4px;
     padding: 10px;
 }
