@@ -30,6 +30,19 @@ span {
     gap: 3px;
 }
 
+#inicio-caixa a {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#inicio-caixa a:hover {
+    background: #a3a3a3;
+}
+
 @media (max-width: 1000px) {
     .cursos-h3 {
         font-size: 3rem;

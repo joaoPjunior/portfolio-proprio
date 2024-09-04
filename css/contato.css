@@ -43,7 +43,7 @@ border: 1px solid #000;
 
 
 .inicio-caixa a {
-    background: #a3a3a3;
+    background: #fff;
     padding: 10px 20px;
     border-radius: 4px;
     text-decoration: none;
@@ -52,7 +52,7 @@ border: 1px solid #000;
 }
 
 .inicio-caixa a:hover {
-    background: #f1efef;
+    background: #a3a3a3;
 }
 
 @media (max-width: 1000px) {
@@ -93,4 +93,7 @@ border: 1px solid #000;
     .lista-contato li a {
         padding: 3px 5px;
     }
+
+    
 }
+
